@@ -20,13 +20,13 @@ import {
 const ProfilePage = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [profileData, setProfileData] = useState({
-    fullName: 'John Doe',
-    email: 'john.doe@example.com',
+    fullName: 'Ram Thapa',
+    email: 'ram@example.com',
     title: 'Senior Software Engineer',
     location: 'San Francisco, CA',
-    github: 'johndoe',
-    linkedin: 'johndoe',
-    website: 'johndoe.dev',
+    github: 'ram',
+    linkedin: 'ram',
+    website: 'ram.portfolio.com',
     bio: 'Passionate about building great software and helping others learn programming.',
   });
   const recentActivity = [
